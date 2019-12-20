@@ -9,7 +9,10 @@ b = bot.twitter_bot()
 def index():
     return render_template('index.html',title='CWAD TWITTER BOT')
 
-@app.route('/tweet', methods=['GET','POST'])
+@app.route('/tweet', methods=['POST'])
 def tweet():
-    b.postTweet(request.form['content'])
+    if request.form.get('owoify'):
+        b.postTweet(b.owoify(request.form['content']))
+    else:
+        b.postTweet(request.form['content'])
     return redirect('/',code=302)

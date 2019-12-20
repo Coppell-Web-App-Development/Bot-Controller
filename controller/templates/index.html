@@ -7,6 +7,10 @@
     <h1>{{title}}</h1>
     <p>Type some stuff and post it!</p>
     <form action="/tweet" method="POST">
+        <p>
+            <input type="checkbox" name="owoify"/>
+            OwO-ify
+        </p>
         <textarea id="tweet_information" rows="4" cols="40" placeholder="Type your tweet here..." name="content"></textarea>
         <p class="Agreement">
             <input type="checkbox" onchange="document.getElementById('tweetbutton').disabled = !this.checked;"/>

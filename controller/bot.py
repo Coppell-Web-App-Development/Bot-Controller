@@ -26,11 +26,11 @@ class twitter_bot:
     def owoify(self,text):
         faces = ['OwO', 'UwU','>w<','^w^','-w-',';; w ;;']
         for c in range(len(text)-1):
-            if(text[c].lower() == 'r' and isVowel(text[c+1])):
+            if(text[c].lower() == 'r' and self.isVowel(text[c+1])):
                 text = text[:c] + 'w' + text[c+1:]
-            elif((isVowel(text[c]) and text[c+1].lower() == 'r')):
+            elif((self.isVowel(text[c]) and text[c+1].lower() == 'r')):
                 text = text[:c+1] + 'w' + text[c+2:]
-            elif(text[c].lower() == 'n' and isVowel(text[c+1])):
+            elif(text[c].lower() == 'n' and self.isVowel(text[c+1])):
                 text = text[:c] + 'ny' + text[c+1:]
             elif(text[c].lower() == 'l'):
                 text = text[:c] + 'w' + text[c+1:]
