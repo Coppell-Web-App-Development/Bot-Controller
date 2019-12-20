@@ -6,9 +6,12 @@
 <body>
     <h1>{{title}}</h1>
     <p>Type some stuff and post it!</p>
-    <form action="/tweet">
+    <form action="/tweet" method="POST">
+        <textarea id="tweet_information" rows="4" cols="40" placeholder="Type your tweet here..." name="content"></textarea>
+        <p class="Agreement">
+            <input type="checkbox" onchange="document.getElementById('tweetbutton').disabled = !this.checked;"/>
+            I agree to something
+        </p>
         <input id="tweetbutton" type="submit" value="Tweet" disabled/>
     </form>
-    <input type="checkbox" onchange="document.getElementById('tweetbutton').disabled = !this.checked;"/>
-    <span>I agree</span>
 </body>
