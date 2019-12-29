@@ -16,3 +16,11 @@ Project/
 | --- controller/
 
 | --- | --- __init__.py
+
+| --- | --- bot.py
+
+| --- | --- routes.py
+
+| --- config.json
+
+| --- run.py
