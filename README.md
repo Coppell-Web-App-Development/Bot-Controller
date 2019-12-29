@@ -9,6 +9,8 @@ the master branch so you can test it out. However, if you want to do it yourself
 scratch by recreating the whole project structure. I want you to get used to the layout of this to get a 
 better understanding of the backend code. 
 
+## Project Structure
+
 Make the project directory like this:
 
 Project/
@@ -24,3 +26,5 @@ Project/
 | --- config.json
 
 | --- run.py
+
+
