@@ -10,6 +10,11 @@ scratch by recreating the whole project structure. I want you to get used to the
 better understanding of the back end code. Compare your code with master branch code. Please follow through
 the master branch and understand what it does.
 
+## Dependencies
+pip3 install the following:
+-flask
+-python-twitter
+
 ## Project Structure
 
 Make the project directory like this:
