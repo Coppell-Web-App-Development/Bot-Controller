@@ -17,7 +17,7 @@ Project/
 
 | --- controller/
 
-| --- | --- __init__.py
+| --- | ---  \__init__.py 
 
 | --- | --- bot.py
 
