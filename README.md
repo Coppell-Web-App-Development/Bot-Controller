@@ -34,13 +34,13 @@ Apps > Bot Controller > Keys and Tokens, and paste the credentials in the json f
 JSON files follow key-valley pair notation. 
 Ex: 
 
-'''
+```
 {
   "consumer_key": "paste in consumer key",
   "consumer_secret": "paste in consumer secret",
   ....
 }
-'''
+```
 
 ## run.py 
 
