@@ -11,6 +11,15 @@ better understanding of the backend code.
 
 Make the project directory like this:
 
-/root_dir
+Project/
 
----controller/
+|-- project/
+|   |-- test/
+|   |   |-- __init__.py
+|   |   |-- test_main.py
+|   |   
+|   |-- __init__.py
+|   |-- main.py
+|
+|-- setup.py
+|-- README
