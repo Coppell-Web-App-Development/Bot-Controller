@@ -13,11 +13,13 @@ better understanding of the backend code. Compare your code with master branch c
 
 Make the project directory like this:
 
+```
+
 Project/
 
 | --- controller/
 
-| --- | ---  \__init__.py 
+| --- | ---  __init__.py 
 
 | --- | --- bot.py
 
@@ -34,6 +36,8 @@ Project/
 | --- config.json
 
 | --- run.py
+
+```
 
 ## config.json
 
