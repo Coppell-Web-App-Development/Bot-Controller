@@ -15,6 +15,10 @@ pip3 install the following:
 -flask
 -python-twitter
 
+make sure to go through documentation:
+https://python-twitter.readthedocs.io/en/latest/twitter.html
+https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world
+
 ## Project Structure
 
 Make the project directory like this:
