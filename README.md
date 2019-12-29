@@ -18,23 +18,14 @@ Make the project directory like this:
 Project/
 
 | --- controller/
-
-| --- | ---  __init__.py 
-
-| --- | --- bot.py
-
-| --- | --- routes.py
-
-| --- | --- templates/
-
-| --- | --- | --- | index.html
-
-| --- | --- static/
-
-| --- | --- | --- | style.css
-
+|    | --- __init__.py 
+|    | --- bot.py
+|    | --- routes.py
+|    | --- templates/
+|    |    | --- index.html
+|    | --- static/
+|    |    | ---  style.css
 | --- config.json
-
 | --- run.py
 
 ```
