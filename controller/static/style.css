@@ -1,0 +1,62 @@
+:root{
+    --twit-bg: #00acee;
+    --twit-fg: #ffffff;
+    --twit-font: 'Roboto', sans-serif;
+}
+body{
+    background: var(--twit-bg);
+    font-family: var(--twit-font);
+}
+
+.title{
+    color: var(--twit-fg);
+    text-align: center;
+}
+.container{
+    margin: 0 auto;
+    width: 700px;
+}
+.post-update{
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
+textarea{
+    font-family: var(--twit-font);
+    border-radius: 20px;
+    width: 300px;
+    padding: 20px;
+    outline: none;
+    border-style: none;
+    display: inline-block;
+    resize: none;
+    text-align: left !important;
+}
+
+input{
+    font-family: var(--twit-font);  
+    border-radius: 20px;
+    width: 150px;
+    height: 50px;
+    margin: 10px;
+    outline: none;
+    border-style: none;
+    display: inline-block;
+    text-align: center;
+}
+
+.success{
+    text-align: center;
+    background: green;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 12px;
+}
+
+.error{
+    text-align: center;
+    background: red;
+    border-radius: 20px;
+    padding: 1px;
+    font-size: 12px;
+}

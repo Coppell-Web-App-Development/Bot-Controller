@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css')}}">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <title>Bot Controller</title>
+</head>
+<body>
+    <h1 class="title">Bot Controller</h1>
+    <div class="container">
+        <form class="post-update" action="/post_message" method="POST">
+            <textarea class="post-update" name="message" maxlength="280" required></textarea>
+            <input type="submit" value="Post Update">
+        </form>
+        {% if success %}
+            <div class="success">
+                <h1>Successful POST, <br> text: {{msg}}</h1>
+            </div>
+        {% elif error %}
+            <div class="error">
+                <h1>Twitter Error, most likely duplicate status.</h1>
+            </div>
+        {% endif %}
+    </div>
+</body>
+</html>
