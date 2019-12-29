@@ -13,22 +13,5 @@ Make the project directory like this:
 
 Project/
 
-|-- project/
-
-|   |-- test/
-
-|   |   |-- __init__.py
-
-|   |   |-- test_main.py
-
-|   |   
-
-|   |-- __init__.py
-
-|   |-- main.py
-
-|
-
-|-- setup.py
-
-|-- README
+| --- controller/
+| --- | --- __init__.py
