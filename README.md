@@ -23,6 +23,14 @@ Project/
 
 | --- | --- routes.py
 
+| --- | --- templates/
+
+| --- | --- | --- | index.html
+
+| --- | --- static/
+
+| --- | --- | --- | style.css
+
 | --- config.json
 
 | --- run.py
@@ -31,7 +39,7 @@ Project/
 
 Contains API credentials for our bot. Go to developer.twitter.com, sign in as our bot account, go under 
 Apps > Bot Controller > Keys and Tokens, and paste the credentials in the json file to access Twitter.
-JSON files follow key-valley pair notation. 
+JSON files follow key-value pair notation. 
 Ex: 
 
 ```
@@ -46,4 +54,26 @@ Ex:
 
 Our main starting place for the flask app. Just copy and paste from master brnch.
 
-## 
+## controller/
+
+This is the main project python package.
+
+## controller/__init__.py
+
+Initializes the package when imported, copy content from master branch.
+
+## controller/routes.py
+
+Where the routes are defined and handles incoming requests.
+
+## bot.py 
+
+Contains code for using Twitter's API.
+
+## controller/templates/
+
+HTML files.
+
+## controller/static/
+
+CSS, Javascripts, and other static files for reference by templates.
