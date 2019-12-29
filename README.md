@@ -12,7 +12,9 @@ the master branch and understand what it does.
 
 ## Dependencies
 pip3 install the following:
+
 -flask
+
 -python-twitter
 
 make sure to go through documentation:
