@@ -32,11 +32,15 @@ Project/
 Contains API credentials for our bot. Go to developer.twitter.com, sign in as our bot account, go under 
 Apps > Bot Controller > Keys and Tokens, and paste the credentials in the json file to access Twitter.
 JSON files follow key-valley pair notation. 
-Ex: {
+Ex: 
+
+'''
+{
   "consumer_key": "paste in consumer key",
   "consumer_secret": "paste in consumer secret",
   ....
 }
+'''
 
 ## run.py 
 
